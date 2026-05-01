@@ -5,32 +5,36 @@ import { getWhatsAppLink } from '@/lib/constants';
 
 const services = [
   {
-    title: "Company Profile Website & Landing Page",
-    desc: "Website profesional yang mencerminkan kredibilitas dan nilai bisnis Anda. Desain modern, responsif, SEO-ready, dan siap live dalam waktu singkat.",
-    price: "Rp 12.000.000",
-    cta: "Konsultasi Website",
-    details: ["5–7 Hari", "Properti / Klinik / Retail", "Konversi Sales Tinggi"]
-  },
-  {
-    title: "Pitch Deck & Proposal Investor / Tender",
-    desc: "Presentasi ringkas yang memenangkan hati investor atau tim tender. Narasi strategis + desain elegan yang persuasif untuk closing deal lebih cepat.",
+    title: "Academic Vanguard Protocol",
+    desc: "Penyusunan Jurnal Internasional (Scopus Q1-Q4), Tesis & Disertasi dengan standar forensik. Garansi Turnitin < 15% dan metodologi riset yang kebal bantahan.",
     price: "Rp 8.500.000",
-    cta: "Siapkan Proposal",
-    details: ["3–5 Hari", "Startup & Eksapnsi Bisnis", "Narasi Bisnis Kredibel"]
+    cta: "Inisiasi Riset",
+    slug: "academic-vanguard",
+    details: ["Scopus Q1-Q4", "S2 / S3 / PPDS", "Audit Metodologi"]
   },
   {
-    title: "Penulisan Strategis & Dokumentasi Bisnis",
-    desc: "Proposal, business plan, whitepaper, laporan tahunan, dan copywriting marketing dengan tone premium yang tepat sasaran.",
-    price: "Rp 5.500.000",
-    cta: "Pesan Proposal",
-    details: ["3–5 Hari", "Hemat Puluhan Jam", "Siap Untuk Ekspansi"]
+    title: "Bureaucratic Compliance & Policy",
+    desc: "Penyusunan LAKIP, Renstra, dan Kajian Akademik yang 'Audit-Ready'. Menjamin sinkronisasi IKU yang kebal temuan BPK dan Kemenpan-RB.",
+    price: "Rp 25.000.000",
+    cta: "Kepatuhan Institusi",
+    slug: "bureaucratic-compliance",
+    details: ["LAKIP / Renstra", "BPK Audit-Ready", "SAKIP AA Focus"]
   },
   {
-    title: "Mini Audit & Konsultasi Strategis",
-    desc: "Review mendalam terhadap pitch deck, website, atau proposal Anda + rekomendasi actionable dan insight bisnis instan.",
-    price: "Rp 2.500.000",
-    cta: "Mulai Audit",
-    details: ["1–2 Hari", "Identifikasi Kelemahan", "Insight Cepat"]
+    title: "Capital, Corporate & ESG Strategy",
+    desc: "ESG Report (Standar GRI), Investor-Ready Pitch Deck, dan Feasibility Study. Mengamankan pendanaan dan kepatuhan regulasi OJK POJK 51.",
+    price: "Rp 15.000.000",
+    cta: "Strategi Kapital",
+    slug: "capital-strategy",
+    details: ["ESG / GRI Report", "VC Pitch Deck", "OJK Compliance"]
+  },
+  {
+    title: "Elite Digital Architecture",
+    desc: "Arsitektur website dan landing page otoritatif untuk eksekutif dan korporasi. Fokus pada konversi naratif dan wibawa visual tingkat tinggi.",
+    price: "Rp 12.000.000",
+    cta: "Bangun Otoritas",
+    slug: "digital-architecture",
+    details: ["5-7 Hari SLA", "Executive Visual", "Conversion Focused"]
   }
 ];
 

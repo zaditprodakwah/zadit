@@ -30,29 +30,33 @@ const investigationTiers = [
 
 const protocols = [
   {
-    name: "Strategic Intake",
-    price: "Investment Tier 1",
-    includes: ["Audit Investigatif", "1 Layanan Eksekusi Minor"],
-    tag: "Akses Dasar"
+    name: "LITE Protocol",
+    price: "Rp 2.5M - 7.5M",
+    includes: ["Mini Audit Strategis", "Makalah S1 VIP", "Revisi Minor Tesis", "Adaptasi Template SOP"],
+    tag: "Survival / Rapid Tier",
+    sla: "1-3 Hari"
   },
   {
-    name: "Operational Excellence",
-    price: "Investment Tier 2",
-    includes: ["Pitch Deck Premium", "Proposal Strategis Elite"],
-    tag: "High Value",
-    popular: true
+    name: "PRO Protocol",
+    price: "Rp 8.5M - 15M",
+    includes: ["Tesis S2 (Full Chapter)", "Pitch Deck Startup Basic", "Kajian Kebijakan Ringkas", "LAKIP Dasar"],
+    tag: "Professional Tier",
+    popular: true,
+    sla: "4-7 Hari"
   },
   {
-    name: "Elite Protocol",
-    price: "Investment Tier 3",
-    includes: ["Arsitektur Website", "Pitch Deck Investor"],
-    tag: "Otoritas Penuh"
+    name: "ELITE Protocol",
+    price: "Rp 25M - 150M+",
+    includes: ["Disertasi S3 / Scopus Q1", "ESG Sustainability Report", "RPJMD / Renstra Penuh", "Feasibility Study"],
+    tag: "Institutional Tier",
+    sla: "14-30 Hari"
   },
   {
-    name: "Custom Protocol",
-    price: "Investment Tier 4",
-    includes: ["Full Digital Ecosystem", "Executive Advisory"],
-    tag: "Scalability Maxima"
+    name: "RETAINER Protocol",
+    price: "Rp 15M - 40M/Mo",
+    includes: ["Monthly ESG Reporting", "C-Level Thought Leadership", "Dedicated R&D Support", "Priority 24/7 Access"],
+    tag: "Strategic Retainer",
+    sla: "Ongoing Support"
   }
 ];
 
@@ -130,11 +134,13 @@ export default function Pricing() {
               )}
               
               <h3 className="font-newsreader text-3xl font-bold text-foreground mb-2">{pkg.name}</h3>
-              <div className="flex items-center gap-2 mb-2 text-foreground/30 italic">
-                <Lock className="w-3.5 h-3.5" />
-                <p className="text-xl font-newsreader font-bold">{pkg.price}</p>
+              <div className="flex items-center gap-2 mb-2 text-foreground/90 italic font-newsreader">
+                <p className="text-2xl font-bold">{pkg.price}</p>
               </div>
-              <p className="text-[10px] text-accent/60 font-black mb-10 uppercase tracking-[0.4em]">{pkg.tag}</p>
+              <div className="flex justify-between items-center mb-10">
+                <p className="text-[10px] text-accent font-black uppercase tracking-[0.4em]">{pkg.tag}</p>
+                <p className="text-[9px] text-foreground/40 font-bold uppercase tracking-widest bg-foreground/5 px-3 py-1 rounded-full">{pkg.sla}</p>
+              </div>
               
               <div className="w-full h-px bg-outline/10 mb-10 group-hover:bg-accent/10 transition-colors" />
               

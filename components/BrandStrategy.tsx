@@ -8,42 +8,42 @@ import WhatsAppForm from './WhatsAppForm';
 const pipelineStages = [
   {
     number: '01',
-    title: 'Strategic Intake & Assessment.',
+    title: 'Intelligence Intake\n& Gap Analysis.',
     tag: 'Diagnosis & Scoping',
-    desc: 'Kami melakukan dekonstruksi visi Anda melalui audit 360°. Mengidentifikasi hambatan naratif yang menghambat kepercayaan investor dan membangun fondasi logika yang tidak terbantahkan.',
-    impact: 'Comprehensive Analysis',
+    desc: 'Kami melakukan bedah risiko instan untuk memetakan kelemahan metodologi atau risiko audit pada data Anda sebelum memberikan penawaran.',
+    impact: 'Risk Exposure Mapping',
     icon: Search
   },
   {
     number: '02',
-    title: 'Structural Synthesis\n& Benchmarking.',
+    title: 'Computational\nSynthesis Engine.',
     tag: 'The Engine Synthesis',
-    desc: 'Kami tidak hanya membedah data, tapi memetakan psikologi kompetitor dan audiens. Dengan benchmarking global, kami membangun kerangka kerja yang solid, traceable, dan sulit direplikasi kompetitor.',
-    impact: 'Dominasi Pasar',
+    desc: 'Ekstraksi literatur global dan data crunching secara kilat. Memangkas waktu riset fundamental hingga 70% dengan akurasi traceable.',
+    impact: 'Logika Deduktif Solid',
     icon: Cpu
   },
   {
     number: '03',
-    title: 'Lead Consultant\nCurated Strategy.',
-    tag: 'Strategic Review',
-    desc: 'Setiap detail strategi dikurasi langsung oleh Lead Strategist kami. Kami memastikan narasi yang dibangun memiliki wibawa intelektual yang tinggi dan mampu menggerakkan keputusan di level C-Suite.',
-    impact: 'Otoritas Naratif',
+    title: 'Lead Consultant\nExpert Injection.',
+    tag: 'Strategic Narrative',
+    desc: 'Muhzadit menyuntikkan analisis mendalam dan business storytelling. Mengubah data kuantitatif menjadi narasi persuasif tingkat C-Level.',
+    impact: 'Otoritas Naratif Absolut',
     icon: User
   },
   {
     number: '04',
-    title: 'Forensic Quality\n& Originality.',
-    tag: 'The Polishing Process',
-    desc: 'Tahap finalisasi di mana setiap piksel dan kata divalidasi keakuratannya. Kami menerapkan protokol pembersihan data dan penguatan infrastruktur digital untuk menjamin performa jangka panjang.',
-    impact: 'Stabilitas Aset',
+    title: 'Forensic QA\n& Syntax Detox.',
+    tag: 'The Laundering',
+    desc: 'Pembersihan kosakata generik dan pengujian ketat Turnitin No-Repository. Menjamin Similarity Index < 15% dengan rasa organik 100%.',
+    impact: 'Bebas Artifak Digital',
     icon: ShieldCheck
   },
   {
     number: '05',
-    title: 'Shadow Handover\n& Data Wipe.',
-    tag: 'Final Handover',
-    desc: 'Penyerahan via jalur aman terenkripsi. Setelah konfirmasi penerimaan, seluruh data mentah di server kami akan dihancurkan secara otomatis demi privasi mutlak dan keamanan aset Anda.',
-    impact: 'Total Privacy Protocol',
+    title: 'Secure Handover\n& Auto-Destruct.',
+    tag: 'Liability Shift',
+    desc: 'Penyerahan file via tautan terenkripsi. Sesuai protokol Shadow, seluruh data mentah akan dihancurkan permanen dalam 30 hari.',
+    impact: 'Zero-Knowledge OpSec',
     icon: FileCheck
   }
 ];

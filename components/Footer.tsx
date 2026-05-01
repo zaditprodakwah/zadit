@@ -119,9 +119,14 @@ export default function Footer() {
               <div className="space-y-10">
                 <h4 className="text-[11px] font-black uppercase tracking-[0.5em] text-accent">Layanan</h4>
                 <ul className="space-y-6">
-                  {['Pitch Deck Investor', 'Arsitektur Website', 'Dokumentasi Strategis', 'Audit Investigatif'].map(item => (
-                    <li key={item}>
-                      <Link href="#" className="text-sm text-foreground/40 hover:text-accent transition-colors duration-500">{item}</Link>
+                  {[
+                    { name: 'Academic Vanguard', href: '/layanan/academic-vanguard' },
+                    { name: 'Bureaucratic Compliance', href: '/layanan/bureaucratic-compliance' },
+                    { name: 'Capital Strategy', href: '/layanan/capital-strategy' },
+                    { name: 'Digital Architecture', href: '#' }
+                  ].map(item => (
+                    <li key={item.name}>
+                      <Link href={item.href} className="text-sm text-foreground/40 hover:text-accent transition-colors duration-500">{item.name}</Link>
                     </li>
                   ))}
                 </ul>
@@ -130,7 +135,7 @@ export default function Footer() {
               <div className="space-y-10">
                 <h4 className="text-[11px] font-black uppercase tracking-[0.5em] text-accent">Perusahaan</h4>
                 <ul className="space-y-6">
-                  {['Investigasi Strategis', 'Protokol Eksekusi', 'Kinerja Nyata', 'Kontak Privat'].map(item => (
+                  {['Intellectual Vanguard', 'Operational Pipeline', 'Case Study', 'Kontak Privat'].map(item => (
                     <li key={item}>
                       <Link href="#" className="text-sm text-foreground/40 hover:text-accent transition-colors duration-500">{item}</Link>
                     </li>
@@ -158,8 +163,8 @@ export default function Footer() {
               © {new Date().getFullYear()} PRADIKTIF. PT PRISMA DIGITAL KREATIF. ALL RIGHTS RESERVED.
             </p>
             <div className="flex gap-12">
-              <Link href="#" className="text-[10px] font-black uppercase tracking-[0.4em] text-foreground/10 hover:text-accent transition-colors">Privacy Policy</Link>
-              <Link href="#" className="text-[10px] font-black uppercase tracking-[0.4em] text-foreground/10 hover:text-accent transition-colors">Terms of Service</Link>
+              <Link href="/privacy" className="text-[10px] font-black uppercase tracking-[0.4em] text-foreground/10 hover:text-accent transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="text-[10px] font-black uppercase tracking-[0.4em] text-foreground/10 hover:text-accent transition-colors">Terms of Service</Link>
             </div>
           </div>
         </div>

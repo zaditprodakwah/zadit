@@ -15,11 +15,11 @@ const navItems = [
 
 const sections = [
   { id: 'beranda', label: 'Elite Portal', subtitle: 'Pintu Masuk Strategis' },
-  { id: 'about', label: 'Investigasi Strategis', subtitle: 'Metodologi Forensik' },
-  { id: 'layanan', label: 'Layanan Boutique', subtitle: 'Eksekusi Otoritatif' },
-  { id: 'pendekatan', label: 'Protokol Eksekusi', subtitle: 'Pipeline Elite' },
-  { id: 'portofolio', label: 'Kinerja Nyata', subtitle: 'Data & Hasil Audit' },
-  { id: 'pricing', label: 'Investasi Value', subtitle: 'Parameter & Tier' },
+  { id: 'about', label: 'Intellectual Vanguard', subtitle: 'Metodologi Forensik' },
+  { id: 'layanan', label: 'Strategic Ecosystem', subtitle: 'Eksekusi Otoritatif' },
+  { id: 'pendekatan', label: 'Operational Pipeline', subtitle: 'Elite SLA Workflow' },
+  { id: 'portofolio', label: 'Forensic Case Study', subtitle: 'Data & Hasil Audit' },
+  { id: 'pricing', label: 'Value-Based Pricing', subtitle: 'Parameter & Tier' },
 ];
 
 export default function MobileNav() {
@@ -134,11 +134,11 @@ export default function MobileNav() {
               animate={{ y: 0 }}
               exit={{ y: '100%' }}
               transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-              className="fixed bottom-0 left-0 right-0 bg-surface border-t border-outline/10 rounded-t-[4rem] z-[120] max-h-[90vh] overflow-y-auto shadow-2xl pb-12"
+              className="fixed bottom-0 left-0 right-0 bg-surface border-t border-outline/10 rounded-t-[4rem] z-[120] max-h-[95vh] flex flex-col shadow-2xl"
             >
-              <div className="w-12 h-1.5 bg-outline/10 rounded-full mx-auto my-6" />
+              <div className="w-12 h-1.5 bg-outline/10 rounded-full mx-auto my-6 flex-shrink-0" />
               
-              <div className="px-10 py-4 space-y-12">
+              <div className="flex-1 overflow-y-auto px-10 pb-12 space-y-12 scrollbar-hide">
                 <div className="flex items-center justify-between">
                   <div>
                     <h3 className="font-newsreader text-4xl italic text-foreground">Indeks Strategis</h3>

@@ -7,46 +7,46 @@ import { useRef } from 'react';
 
 const projects = [
   {
-    title: "Klinik Spesialis XYZ",
-    category: "Company Profile + Booking Online",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1000&auto=format&fit=crop",
-    desc: "Re-design website dengan sistem booking terintegrasi. Umpan balik: 'Prosesnya cepat, personal, hasil di atas ekspektasi.'",
-    results: "+240% Pasien Booking"
+    title: "Dinas Provinsi (Bappeda)",
+    category: "LAKIP & SAKIP Optimization",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1000&auto=format&fit=crop",
+    desc: "Rekonstruksi matriks data IKU untuk sinkronisasi target RPJMD. Penyelamatan temuan administratif BPK dalam 3 minggu.",
+    results: "DID Aman & Skor SAKIP A"
   },
   {
-    title: "Elite Residences",
-    category: "Pitch Deck Investor (Series A)",
+    title: "Manufaktur Tbk",
+    category: "Sustainability (ESG) Report",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop",
+    desc: "Penyusunan ESG Report berstandar GRI & OJK POJK 51. Mitigasi risiko greenwashing melalui Materiality Matrix yang divalidasi.",
+    results: "Lolos Audit OJK"
+  },
+  {
+    title: "Startup FinTech Elit",
+    category: "High-Conversion Pitch Deck",
+    image: "https://images.unsplash.com/photo-1553484771-047a44eee27b?q=80&w=1000&auto=format&fit=crop",
+    desc: "Rekayasa narasi visual dan finansial model (Burn Rate, CAC/LTV) untuk pendanaan ekspansi. Closing deal dalam 3 minggu.",
+    results: "Rp8M Seed Funding"
+  },
+  {
+    title: "S3 Kedokteran (Spesialis)",
+    category: "Academic Vanguard / Scopus Q2",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000&auto=format&fit=crop",
+    desc: "AI-Detox Protocol & perombakan total metodologi. Mengubah naskah ditolak menjadi Accepted with Minor Revision.",
+    results: "Turnitin 35% → 8%"
+  },
+  {
+    title: "Elite Property Group",
+    category: "Feasibility Study & Investor Deck",
     image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000&auto=format&fit=crop",
-    desc: "Transformasi narasi strategis untuk pendanaan ekspansi properti elit. Umpan balik: 'Pitch deck ini buat investor langsung serius.'",
-    results: "Rp8M Funding Secured"
-  },
-  {
-    title: "PayFlow Fintech",
-    category: "Landing Page & Proposal Tender",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    desc: "Membangun kredibilitas digital dan narasi tender. Umpan balik: 'Jauh di atas ekspektasi, investor langsung tertarik.'",
+    desc: "Transformasi narasi teknis menjadi proyeksi ROI persuasif untuk ekspansi lahan properti elit.",
     results: "Lolos Due Diligence"
   },
   {
-    title: "Lokal Premium Fashion",
-    category: "Whitepaper Strategi Ekspansi",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
-    desc: "Penyusunan dokumentasi strategi nasional yang menjadi acuan resmi. Umpan balik: 'Hemat waktu kami puluhan jam untuk presentasi.'",
-    results: "Ekspansi 12 Kota"
-  },
-  {
-    title: "Hukum & Partners",
-    category: "Proposal Kerja Sama Korporasi",
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000&auto=format&fit=crop",
-    desc: "Narasi persuasif untuk tender kontrak hukum tahunan korporasi multinasional. Umpan balik: 'Mengubah presentasi kami dari teknis jadi strategis.'",
-    results: "Rp4.2M Kontrak/Tahun"
-  },
-  {
-    title: "PT Maju Sejahtera",
-    category: "Business Plan + Ekspor Strategy",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop",
-    desc: "Penyusunan dokumen untuk bank & mitra asing. Umpan balik: 'Dokumen sangat rapi, meyakinkan bank & mitra asing.'",
-    results: "Kredit Bank Rp15M + 2 LOI Eropa"
+    title: "Kementerian Strategis",
+    category: "Policy Brief & Kajian Akademik",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    desc: "Penyusunan naskah kebijakan berbasis data komputasional untuk mendukung keputusan tingkat menteri.",
+    results: "Regulasi Disahkan"
   }
 ];
 

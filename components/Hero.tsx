@@ -14,19 +14,19 @@ export default function Hero() {
   const [audienceIndex, setAudienceIndex] = useState(0);
 
   const titles = [
-    "Eksklusivitas Terukur.",
-    "Otoritas Digital Absolut.",
-    "Arsitektur Konversi Elite.",
-    "Dampak Strategis Abadi.",
-    "Presisi Narasi Global."
+    "Otoritas Naratif Absolut.",
+    "Shadow Agency Protocol.",
+    "Forensic Case Construction.",
+    "Zero-Knowledge OpSec.",
+    "Computational Synthesis Elite."
   ];
 
   const audiences = [
     "Founders & CEO Visioner",
-    "Pemilik Klinik Spesialis",
-    "Developer Properti Elite",
-    "Senior Partner Firma Hukum",
-    "Investor & High-Net-Worth Individuals"
+    "Mahasiswa S2 / S3 (BKD)",
+    "Tenaga Medis & Spesialis",
+    "Bappeda / NGO Strategic Lead",
+    "C-Suite Corporate & ESG Officer"
   ];
 
   useEffect(() => {
