@@ -1,0 +1,21 @@
+{
+  "name": "netlify-local-plugins",
+  "description": "This directory contains Build plugins that have been automatically installed by Netlify.",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Netlify",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/plugin-emails": "1.1.1",
+    "@netlify/plugin-lighthouse": "6.0.1",
+    "@netlify/plugin-nextjs": "5.15.10",
+    "netlify-plugin-a11y": "0.0.12",
+    "netlify-plugin-amp-server-side-rendering": "1.0.2",
+    "netlify-plugin-chromium": "1.1.4",
+    "netlify-plugin-fetch-feeds": "0.2.3",
+    "netlify-plugin-hashfiles": "4.0.2",
+    "netlify-plugin-image-optim": "0.4.0",
+    "netlify-plugin-submit-sitemap": "0.4.0",
+    "netlify-plugin-webmentions": "1.1.0"
+  }
+}
