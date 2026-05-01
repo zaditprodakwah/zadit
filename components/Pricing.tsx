@@ -7,24 +7,24 @@ import WhatsAppForm from './WhatsAppForm';
 
 const investigationTiers = [
   {
+    service: "Executive PR & Media Placement",
+    price: "Rp 15M - 35M",
+    includes: "Publikasi Media Nasional Tier-1 (Forbes/Kompas), Grey PR, Narrative Control."
+  },
+  {
+    service: "High-Ticket Ads Architecture",
+    price: "Rp 20M / Bln+",
+    includes: "Manajemen Ads Meta/Google/LinkedIn, Setup Funnel, % Profit Share."
+  },
+  {
     service: "Arsitektur Website Elite",
     price: "Private Quote",
-    includes: "Copywriting Forensik, Design Boutique, Development"
+    includes: "Copywriting Forensik, Design Boutique, Executive Authority."
   },
   {
-    service: "Pitch Deck Investor",
-    price: "Private Quote",
-    includes: "12-15 Slide Strategis + Narasi Closing"
-  },
-  {
-    service: "Dokumentasi Strategis",
-    price: "Private Quote",
-    includes: "Proposal Bisnis & Laporan Eksekutif"
-  },
-  {
-    service: "Audit Investigatif",
-    price: "Introductory Quote",
-    includes: "Audit 360° + Konsultasi Privat 45 Menit"
+    service: "Audit Investigatif 360°",
+    price: "Introductory",
+    includes: "Audit Naratif + Konsultasi Privat 45 Menit bersama Muhzadit."
   }
 ];
 

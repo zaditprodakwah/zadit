@@ -27,10 +27,10 @@ export default function WhatsAppForm({ isOpen, onClose, initialInterest = '' }: 
 
   const interests = [
     'Investigasi Strategis',
+    'Strategic PR & Ads Architecture',
     'Arsitektur Website Elite',
     'Pitch Deck Investor',
     'Protokol Eksekusi Elite',
-    'Audit Investigatif 360°',
     'Lainnya'
   ];
 

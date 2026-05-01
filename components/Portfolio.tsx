@@ -35,19 +35,19 @@ const projects = [
     results: "Turnitin 35% → 8%"
   },
   {
-    title: "Elite Property Group",
-    category: "Feasibility Study & Investor Deck",
+    title: "Developer Properti Elit",
+    category: "High-Ticket Ads Architecture",
     image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000&auto=format&fit=crop",
-    desc: "Transformasi narasi teknis menjadi proyeksi ROI persuasif untuk ekspansi lahan properti elit.",
-    results: "Lolos Due Diligence"
+    desc: "Perombakan funnel total. Mengganti copywriting 'Promo Murah' menjadi 'Investasi Eksklusif'. Memfilter unqualified leads melalui Diagnostic Intake.",
+    results: "Closing Rate 1% → 12%"
   },
   {
-    title: "Kementerian Strategis",
-    category: "Policy Brief & Kajian Akademik",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    desc: "Penyusunan naskah kebijakan berbasis data komputasional untuk mendukung keputusan tingkat menteri.",
-    results: "Regulasi Disahkan"
-  }
+    title: "Startup Founder Series A",
+    category: "Executive Media Syndication",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000&auto=format&fit=crop",
+    desc: "Reputation engineering melalui 5 media nasional Tier-1 (Forbes, Kompas). Dominasi 100% halaman pertama Google untuk nama founder.",
+    results: "Due Diligence Secured"
+  },
 ];
 
 export default function Portfolio() {

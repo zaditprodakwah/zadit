@@ -29,12 +29,12 @@ const services = [
     details: ["ESG / GRI Report", "VC Pitch Deck", "OJK Compliance"]
   },
   {
-    title: "Elite Digital Architecture",
-    desc: "Arsitektur website dan landing page otoritatif untuk eksekutif dan korporasi. Fokus pada konversi naratif dan wibawa visual tingkat tinggi.",
-    price: "Rp 12.000.000",
-    cta: "Bangun Otoritas",
-    slug: "digital-architecture",
-    details: ["5-7 Hari SLA", "Executive Visual", "Conversion Focused"]
+    title: "Strategic Amplification & PR",
+    desc: "Executive Media Syndication (Tier-1), Crisis Management, dan Algorithmic Paid Acquisition. Mendominasi narasi publik dan mengakuisisi klien High-Ticket.",
+    price: "Rp 15.000.000",
+    cta: "Amplifikasi Narasi",
+    slug: "strategic-amplification",
+    details: ["Media Tier-1", "Crisis Control", "Ads Architecture"]
   }
 ];
 

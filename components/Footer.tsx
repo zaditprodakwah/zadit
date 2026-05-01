@@ -123,7 +123,7 @@ export default function Footer() {
                     { name: 'Academic Vanguard', href: '/layanan/academic-vanguard' },
                     { name: 'Bureaucratic Compliance', href: '/layanan/bureaucratic-compliance' },
                     { name: 'Capital Strategy', href: '/layanan/capital-strategy' },
-                    { name: 'Digital Architecture', href: '#' }
+                    { name: 'Strategic PR & Ads', href: '/layanan/strategic-amplification' }
                   ].map(item => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm text-foreground/40 hover:text-accent transition-colors duration-500">{item.name}</Link>

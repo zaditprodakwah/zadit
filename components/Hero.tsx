@@ -23,10 +23,10 @@ export default function Hero() {
 
   const audiences = [
     "Founders & CEO Visioner",
+    "Tokoh Publik & Politik",
+    "Korporasi Tbk (ESG Focus)",
     "Mahasiswa S2 / S3 (BKD)",
-    "Tenaga Medis & Spesialis",
-    "Bappeda / NGO Strategic Lead",
-    "C-Suite Corporate & ESG Officer"
+    "Bappeda / NGO Strategic Lead"
   ];
 
   useEffect(() => {

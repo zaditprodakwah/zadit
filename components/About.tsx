@@ -188,7 +188,7 @@ export default function About() {
                       <div className="space-y-6">
                         <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-foreground/30 border-b border-outline/10 pb-4">Core Competencies</h4>
                         <ul className="space-y-4">
-                          {['SEO Copywriting Architecture', 'Business Narrative Design', 'Conversion Optimization', 'Executive Digital Presence'].map(s => (
+                          {['SEO Copywriting Architecture', 'Reputation & Crisis Engineering', 'Business Narrative Design', 'High-Ticket Ads Architecture'].map(s => (
                             <li key={s} className="text-sm font-medium text-foreground/50 flex items-center gap-3">
                               <div className="w-1.5 h-1.5 rounded-full bg-accent/30" /> {s}
                             </li>
