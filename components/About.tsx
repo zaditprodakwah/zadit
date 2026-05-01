@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, AnimatePresence, useScroll, useTransform } from 'motion/react';
-import { UserCheck, Zap, BarChart3, Search, Target, Layers, Award, X } from 'lucide-react';
+import { UserCheck, Zap, BarChart3, Search, Target, Layers, Award, X, CheckCircle2 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import WhatsAppForm from './WhatsAppForm';
@@ -207,6 +207,31 @@ export default function About() {
                               <p className="text-[10px] text-foreground/40 uppercase tracking-widest mt-1">Al-Bahjah Foundation Executive Office</p>
                            </div>
                         </div>
+                      </div>
+                   </div>
+
+                   {/* New Section: Academic & Intellectual Vanguard */}
+                   <div className="pt-12 space-y-10 border-t border-outline/5">
+                      <div className="flex items-center gap-4 text-[10px] font-black uppercase tracking-[0.5em] text-accent">
+                         <Search className="w-4 h-4" /> Intellectual Vanguard & Case Study
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                         <div className="bg-background/40 p-8 rounded-[2rem] border border-outline/5 space-y-6">
+                            <h5 className="font-newsreader text-2xl italic text-foreground">Academic Protocol</h5>
+                            <p className="text-sm text-foreground/40 leading-relaxed">Penyusunan Jurnal Internasional (Scopus Q1-Q4), Tesis & Disertasi dengan standar forensik. Garansi Turnitin &lt; 15%.</p>
+                            <div className="flex flex-wrap gap-2">
+                               {['Scopus Q1/Q2', 'Methodology QA', 'Data Analysis'].map(t => (
+                                  <span key={t} className="px-3 py-1 bg-accent/5 border border-accent/10 rounded-full text-[9px] font-bold text-accent">{t}</span>
+                               ))}
+                            </div>
+                         </div>
+                         <div className="bg-accent/5 p-8 rounded-[2rem] border border-accent/20 space-y-4">
+                            <div className="flex items-center gap-3 text-[9px] font-black uppercase tracking-widest text-accent">
+                               <CheckCircle2 className="w-3 h-3" /> Impact Success
+                            </div>
+                            <p className="text-xs font-bold text-foreground">Case: S3 Kedokteran / Jurnal Scopus Q2</p>
+                            <p className="text-xs text-foreground/50 italic leading-relaxed">&quot;Turnitin 35% → 8%. Naskah diterima (Accepted) dalam 14 hari kerja melalui perombakan total Bab Pembahasan & Literasi.&quot;</p>
+                         </div>
                       </div>
                    </div>
 
