@@ -1,0 +1,376 @@
+{
+  "document_metadata": {
+    "title": "MASTER DOCUMENTATION: PERSONAL BRANDING & LANDING PAGE",
+    "entity": "MUHZADIT / PRADIKTIF (PT Prisma Digital Kreatif)",
+    "positioning": "Premium Business Consultant & Digital Strategist",
+    "version": "Mei 2026",
+    "language": "id"
+  },
+  "strategy_and_concept": {
+    "description": "Referensi Prinsip & Konsep. Panduan internal untuk keputusan desain, strategi marketing, atau ekspansi bisnis.",
+    "cv_paradigm_2026": {
+      "definition": "CV sebagai Marketing Document yang dirancang untuk memenangkan impresi dalam 6-10 detik pertama.",
+      "guidelines": {
+        "format": "Maksimal 1 halaman (atau 2 halaman untuk level eksekutif).",
+        "focus": "Quantifiable achievements (Angka, hasil bisnis, metrik), bukan sekadar daftar tugas harian.",
+        "design": "ATS-friendly namun secara visual modern (clean typography, ample whitespace, bold headline).",
+        "priority_structure": [
+          "Professional Summary (3-5 baris powerful)",
+          "Experience",
+          "Skills",
+          "Education",
+          "Certifications"
+        ],
+        "tailoring": "Disesuaikan dengan target audiens (diposisikan untuk meyakinkan klien premium/investor)."
+      }
+    },
+    "brand_canvas": {
+      "brand_core": {
+        "tagline": "Hasil Agency Premium. Proses Personal. Tanpa Drama.",
+        "purpose": "Membantu pengusaha & eksekutif sibuk mengubah ide bisnis menjadi dokumen & digital presence berkualitas agency tanpa drama.",
+        "brand_values_5p": [
+          "Personal",
+          "Premium",
+          "Predictive",
+          "Praktis",
+          "Prisma"
+        ],
+        "personality": "Profesional tapi hangat, eksklusif, strategis, trustworthy (seperti partner eksekutif pribadi).",
+        "visual_identity": {
+          "colors": {
+            "primary": "Deep Navy (#0A2540)",
+            "accent": "Warm Gold (#D4A017)",
+            "neutral": "Neutral Warm Gray (#F5F0E8)"
+          },
+          "theme": "Dark mode default"
+        }
+      }
+    },
+    "business_model": {
+      "value_proposition": "Dokumentasi bisnis & digital presence premium selesai dalam 3–7 hari + insight bisnis praktis.",
+      "revenue_streams": [
+        "Proyek sekali jadi (Rp8–25 jt)",
+        "Retainer bulanan (Rp15–40 jt)",
+        "Mini audit (Rp2–3 jt)"
+      ],
+      "channels": [
+        "Website SPA (Lead Utama)",
+        "LinkedIn",
+        "WhatsApp Business",
+        "Referral"
+      ]
+    },
+    "market_segmentation": [
+      {
+        "segment_name": "Non-Tech Savvy tapi Besar Uang",
+        "percentage": 60,
+        "target_audience": [
+          "Pengusaha properti",
+          "Pemilik klinik",
+          "Pengacara senior"
+        ],
+        "pain_points": "Takut ribet tech, agency terlalu mahal & birokratis."
+      },
+      {
+        "segment_name": "Tech Savvy tapi No Time",
+        "percentage": 40,
+        "target_audience": [
+          "Founder startup",
+          "C-level eksekutif"
+        ],
+        "pain_points": "Waktu super terbatas, butuh pendelegasian yang 'langsung ngerti'."
+      }
+    ],
+    "competitor_benchmarking": {
+      "competitors": [
+        {
+          "type": "Freelancer Murah",
+          "price_range": "Rp1-5jt",
+          "weakness": "Generik, minim strategi."
+        },
+        {
+          "type": "Agency Menengah/Besar",
+          "price_range": "Rp15-50jt+",
+          "weakness": "Lambat (berminggu-minggu), birokrasi berbelit."
+        }
+      ],
+      "pradiktif_positioning": "Kualitas setara agency besar, harga kompetitif, kecepatan ekstrem (3-7 hari), dan sentuhan personal (langsung ditangani Founder)."
+    },
+    "pricing_philosophy": [
+      {
+        "principle": "Value-Based Pricing",
+        "description": "Harga ditentukan oleh nilai bisnis yang diselamatkan/dihasilkan klien (closing deal, waktu luang), bukan dihitung per jam."
+      },
+      {
+        "principle": "No Hidden Cost",
+        "description": "Karena ditangani langsung oleh Muhzadit, tidak ada mark-up harga untuk bayar tim besar."
+      },
+      {
+        "principle": "Psikologi Harga",
+        "description": "Menggunakan 'Starting from' untuk menunjukkan kelas premium namun tetap memberikan fleksibilitas negosiasi scope."
+      }
+    ]
+  },
+  "ui_ux_content": {
+    "description": "Referensi Konten (Siap Pakai untuk UI/UX). Teks matang untuk elemen website.",
+    "master_cv": {
+      "personal_info": {
+        "name": "MUHAMMAD KHOIRUZZADITTAQWA (Muh Zadit)",
+        "titles": [
+          "SEO Copywriter",
+          "Digital Marketing Specialist",
+          "Founder PRADIKTIF"
+        ],
+        "location": "Cirebon, Indonesia",
+        "email": "muhzadit@pradiktif.id",
+        "links": [
+          "kontak.link/muhzadit"
+        ]
+      },
+      "professional_summary": "Digital strategist dan spesialis konten marketing yang menggabungkan keahlian SEO Copywriting, administrasi eksekutif, dan broadcasting. Saat ini mendirikan PRADIKTIF, membantu pengusaha dan eksekutif sibuk mengeksekusi pitch deck investor, website perusahaan, dan dokumentasi bisnis premium dalam 3–7 hari. Membawa pengalaman hands-on dalam manajemen operasional pendidikan dan public speaking untuk memastikan setiap output memiliki narasi yang terstruktur, persuasif, dan berstandar agency.",
+      "professional_experience": [
+        {
+          "role": "Founder & Lead Consultant",
+          "company": "PRADIKTIF – PT Prisma Digital Kreatif",
+          "period": "2025 – Sekarang",
+          "achievements": [
+            "Mendirikan layanan premium penyedia pitch deck dan company profile untuk UMKM & startup dengan SLA ketat (3–7 hari penyelesaian).",
+            "Mengembangkan framework personal 1-on-1 yang memangkas birokrasi agency tradisional, meningkatkan efisiensi waktu klien hingga 80%.",
+            "Membantu klien meningkatkan kredibilitas brand dan konversi bisnis melalui narasi high-conversion dan desain premium."
+          ]
+        },
+        {
+          "role": "Secretary of the Head Division",
+          "company": "Al-Bahjah Foundation",
+          "period": "Maret 2021 – Sekarang",
+          "location": "Cirebon",
+          "achievements": [
+            "Memimpin tim 5 staf administrasi menggunakan Google Workspace untuk efisiensi operasional divisi pendidikan.",
+            "Mengelola dokumen, jadwal, dan komunikasi internal eksekutif dengan akurasi dan kecepatan tinggi."
+          ]
+        },
+        {
+          "role": "Radio DJ & Announcer",
+          "company": "Al-Bahjah Foundation",
+          "period": "Maret 2019 – Januari 2021",
+          "location": "Pontianak",
+          "achievements": [
+            "Memproduksi dan menyiarkan konten edukatif dan advertorial radio.",
+            "Meriset puluhan lokasi potensial untuk ekspansi siaran, mengasah kemampuan riset pasar dan komunikasi publik."
+          ]
+        }
+      ],
+      "key_skills": {
+        "core": [
+          "SEO Copywriting",
+          "Content Marketing",
+          "Business Storytelling"
+        ],
+        "technical": [
+          "Digital Marketing Strategy",
+          "Google Workspace",
+          "Data Analysis"
+        ],
+        "soft_skills": [
+          "Public Speaking",
+          "Problem-Solving",
+          "Executive Communication"
+        ]
+      },
+      "education_and_certification": {
+        "education": [
+          {
+            "degree": "S1 Pendidikan Matematika",
+            "institution": "STAI Al-Bahjah",
+            "period": "2022–Sekarang",
+            "details": "IPK 3.71 (2 Publikasi Riset)."
+          }
+        ],
+        "certifications": [
+          {
+            "year": 2024,
+            "courses": [
+              "Fullstack Digital Marketing (MySkill)",
+              "SEO & Content (eMarketing Institute)",
+              "Web Journalism (The Campster)"
+            ]
+          }
+        ]
+      }
+    },
+    "services": [
+      {
+        "id": "service_1",
+        "name": "Company Profile Website & High-Conversion Landing Page",
+        "copywriting": "Website profesional yang mencerminkan kredibilitas bisnis Anda dengan desain modern, responsif, SEO-friendly, dan siap live.",
+        "duration": "5-7 Hari",
+        "process_flow": [
+          "Discovery Call",
+          "Strategi User Journey",
+          "Copywriting SEO",
+          "UI/UX Design",
+          "Development & Launch"
+        ],
+        "benefit": "Meningkatkan trust calon klien & konversi sales secara otomatis."
+      },
+      {
+        "id": "service_2",
+        "name": "Pitch Deck & Proposal Bisnis Investor / Tender",
+        "copywriting": "Presentasi ringkas & persuasif yang dirancang untuk memenangkan hati investor atau komite tender. Termasuk narasi strategis + desain kelas agency.",
+        "duration": "3-5 Hari",
+        "process_flow": [
+          "Objektif Pendanaan",
+          "Riset Kompetitor",
+          "Storytelling Slide",
+          "Desain Premium",
+          "Rehearsal"
+        ],
+        "benefit": "Mempercepat proses closing investasi atau tender bernilai tinggi."
+      },
+      {
+        "id": "service_3",
+        "name": "Penulisan Strategis & Dokumentasi Bisnis",
+        "copywriting": "Business plan, whitepaper, laporan tahunan, dan copywriting dengan tone profesional. Ekstraksi ide rumit Anda menjadi dokumen siap baca.",
+        "duration": "3-5 Hari",
+        "process_flow": [
+          "Briefing",
+          "Riset Industri",
+          "Outlining",
+          "Full Draft",
+          "Polishing Executive Summary"
+        ],
+        "benefit": "Narasi bisnis yang kredibel tanpa mengorbankan waktu Anda."
+      },
+      {
+        "id": "service_4",
+        "name": "Mini Audit & Konsultasi Strategis",
+        "copywriting": "Review mendalam terhadap pitch deck/website Anda saat ini beserta insight bisnis praktis dan rekomendasi actionable.",
+        "duration": "1-2 Hari",
+        "process_flow": [
+          "Submit Materi",
+          "Audit Mendalam Muhzadit",
+          "Laporan PDF",
+          "Debrief Call (30 Menit)"
+        ],
+        "benefit": "Quick wins dan evaluasi ahli tanpa komitmen proyek besar."
+      }
+    ],
+    "portfolio_case_studies": [
+      {
+        "client": "Klinik Spesialis XYZ",
+        "industry": "Kesehatan",
+        "service_provided": "Company Profile + Booking Online",
+        "duration": "6 Hari",
+        "measurable_impact": "Konversi booking pasien naik 240%. Bounce rate turun drastis.",
+        "testimonial": "Prosesnya cepat, personal, hasil di atas ekspektasi."
+      },
+      {
+        "client": "Elite Residences",
+        "industry": "Properti",
+        "service_provided": "Pitch Deck Investor (Series A)",
+        "duration": "4 Hari",
+        "measurable_impact": "Berhasil mengamankan pendanaan Rp 8 Miliar dalam 3 minggu.",
+        "testimonial": "Pitch deck ini buat investor langsung serius."
+      },
+      {
+        "client": "PayFlow",
+        "industry": "Fintech Startup",
+        "service_provided": "Landing Page + Proposal Tender",
+        "duration": "5 Hari",
+        "measurable_impact": "Lolos tahap due diligence dengan 3 investor besar sekaligus.",
+        "testimonial": "Jauh di atas ekspektasi, investor langsung tertarik."
+      },
+      {
+        "client": "Lokal Premium",
+        "industry": "Retail Fashion",
+        "service_provided": "Whitepaper Strategi Ekspansi",
+        "duration": "7 Hari",
+        "measurable_impact": "Menjadi acuan resmi ekspansi ke 12 kota baru dalam 6 bulan.",
+        "testimonial": "Hemat waktu kami puluhan jam untuk presentasi."
+      },
+      {
+        "client": "Hukum & Partners",
+        "industry": "Law Firm",
+        "service_provided": "Pitch Deck Proposal Korporasi",
+        "duration": "4 Hari",
+        "measurable_impact": "Menang tender kontrak hukum senilai Rp 4,2 Miliar per tahun.",
+        "testimonial": "Mengubah presentasi kami dari teknis jadi strategis."
+      },
+      {
+        "client": "PT Maju Sejahtera",
+        "industry": "Manufaktur",
+        "service_provided": "Business Plan + Ekspor Strategy",
+        "duration": "7 Hari",
+        "measurable_impact": "Disetujui kredit ekspansi bank Rp 15 Miliar + 2 LOI dari Eropa.",
+        "testimonial": "Dokumen sangat rapi, meyakinkan bank & mitra asing."
+      }
+    ],
+    "pricing_and_packages": {
+      "core_services_starting_price": [
+        {
+          "service": "Website & Landing Page",
+          "price": "Rp 12.000.000",
+          "includes": "Copy, Design, Dev, 1 bln support"
+        },
+        {
+          "service": "Pitch Deck / Tender",
+          "price": "Rp 8.500.000",
+          "includes": "10-15 Slide premium + narasi"
+        },
+        {
+          "service": "Dokumentasi Strategis",
+          "price": "Rp 5.500.000",
+          "includes": "Proposal, Business Plan up to 30 hal"
+        },
+        {
+          "service": "Mini Audit",
+          "price": "Rp 2.500.000",
+          "includes": "Laporan lengkap + call 30 menit"
+        }
+      ],
+      "bundling_packages": [
+        {
+          "package_name": "Paket Starter",
+          "price": "Rp 7.000.000",
+          "includes": "Mini Audit + 1 Layanan Eksekusi Kecil",
+          "savings": "0"
+        },
+        {
+          "package_name": "Paket Growth",
+          "price": "Rp 12.500.000",
+          "includes": "Pitch Deck + Penulisan Proposal",
+          "savings": "Rp 1.500.000"
+        },
+        {
+          "package_name": "Paket Premium",
+          "price": "Rp 18.500.000",
+          "includes": "Full Website + Pitch Deck Investor",
+          "savings": "Rp 2.000.000"
+        },
+        {
+          "package_name": "Paket Enterprise",
+          "price": "Rp 24.000.000",
+          "includes": "Website + Pitch Deck + Full Dokumentasi",
+          "savings": "Rp 3.000.000"
+        }
+      ],
+      "retainer_options": [
+        {
+          "tier": "Retainer Lite",
+          "price_per_month": "Rp 15.000.000",
+          "allocation": "20 jam kerja Muhzadit"
+        },
+        {
+          "tier": "Retainer Pro",
+          "price_per_month": "Rp 28.000.000",
+          "allocation": "40 jam kerja + prioritas antrean"
+        }
+      ],
+      "payment_terms": {
+        "dp": "50% untuk mulai pengerjaan",
+        "pelunasan": "50% setelah approval final draft",
+        "garansi": "Sudah termasuk 2-3 ronde revisi komprehensif"
+      }
+    }
+  }
+}
