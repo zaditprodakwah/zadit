@@ -25,14 +25,14 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "PRADIKTIF | Hasil Agency Premium. Proses Personal. Tanpa Drama.",
-  description: "Strategic Advisory Boutique oleh Muhzadit. Spesialis Arsitektur Pitch Deck Investor, Website Eksklusif, dan Penjaminan Orisinalitas Naratif untuk Eksekutif & Founder visioner.",
-  keywords: ["jasa pitch deck premium", "company profile website eksklusif", "arsitek pertumbuhan digital", "Muhzadit PRADIKTIF", "proposal bisnis profesional", "investor pitch deck jakarta", "premium digital agency indonesia"],
+  title: "PRADIKTIF Agency | Hasil Agency Premium. Proses Personal. Tanpa Drama.",
+  description: "Shadow Agency & Infrastruktur Strategis oleh Muhzadit. Spesialis Arsitektur Pitch Deck Investor, Academic Vanguard, Bureaucratic Compliance, dan Reputation Engineering.",
+  keywords: ["jasa pitch deck premium", "reputation engineering indonesia", "jasa press release media nasional", "Muhzadit PRADIKTIF", "Bappeda strategic lead", "investor pitch deck jakarta", "PRADIKTIF Agency"],
   openGraph: {
-    title: "PRADIKTIF | Digital Strategy Boutique by Muhzadit",
+    title: "PRADIKTIF Agency | Strategic Amplification & Reputation Engineering",
     description: "Eksklusivitas dalam setiap strategi digital. Hasil Agency Premium, Proses Personal, Tanpa Drama.",
-    url: "https://pradiktif.id",
-    siteName: "PRADIKTIF",
+    url: "https://zadit.netlify.app",
+    siteName: "PRADIKTIF Agency",
     images: [
       {
         url: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&h=630&auto=format&fit=crop",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PRADIKTIF | Digital Strategy Boutique",
+    title: "PRADIKTIF Agency | Shadow Agency Infrastructure",
     description: "Hasil Agency Premium. Proses Personal. Tanpa Drama.",
     images: ["https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200",],
   },
@@ -71,22 +71,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://pradiktif.id/#website",
-                  "url": "https://pradiktif.id",
+                  "@id": "https://zadit.netlify.app/#website",
+                  "url": "https://zadit.netlify.app",
                   "name": "PRADIKTIF",
                   "description": "Premium Digital Strategy Boutique for Growth-Oriented Businesses",
-                  "publisher": { "@id": "https://pradiktif.id/#organization" },
+                  "publisher": { "@id": "https://zadit.netlify.app/#organization" },
                   "inLanguage": "id-ID"
                 },
                 {
                   "@type": "WebPage",
-                  "@id": "https://pradiktif.id/#webpage",
-                  "url": "https://pradiktif.id",
+                  "@id": "https://zadit.netlify.app/#webpage",
+                  "url": "https://zadit.netlify.app",
                   "name": "Arsitek Pertumbuhan Digital | PRADIKTIF",
-                  "isPartOf": { "@id": "https://pradiktif.id/#website" },
-                  "about": { "@id": "https://pradiktif.id/#organization" },
+                  "isPartOf": { "@id": "https://zadit.netlify.app/#website" },
+                  "about": { "@id": "https://zadit.netlify.app/#organization" },
                   "description": "Portofolio digital dan pusat strategi pertumbuhan bisnis premium oleh Muhzadit.",
-                  "breadcrumb": { "@id": "https://pradiktif.id/#breadcrumb" },
+                  "breadcrumb": { "@id": "https://zadit.netlify.app/#breadcrumb" },
                   "mentions": [
                     { "@type": "Thing", "name": "Digital Strategy" },
                     { "@type": "Thing", "name": "Growth Hacking" },
@@ -95,10 +95,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 },
                 {
                   "@type": "Person",
-                  "@id": "https://pradiktif.id/#founder",
+                  "@id": "https://zadit.netlify.app/#founder",
                   "name": "Muhzadit",
                   "jobTitle": "Strategic Director & Founder",
-                  "url": "https://pradiktif.id",
+                  "url": "https://zadit.netlify.app",
                   "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000",
                   "sameAs": [
                     "https://linkedin.com/in/muhzadit",
@@ -116,12 +116,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://pradiktif.id/#organization",
-                  "name": "PRADIKTIF (PT Prisma Digital Kreatif)",
-                  "url": "https://pradiktif.id",
+                  "@id": "https://zadit.netlify.app/#organization",
+                  "name": "PRADIKTIF Agency (PT Prisma Digital Kreatif)",
+                  "url": "https://zadit.netlify.app",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://pradiktif.id/logo.png"
+                    "url": "https://zadit.netlify.app/logo.png"
                   },
                   "contactPoint": {
                     "@type": "ContactPoint",
@@ -137,7 +137,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     "postalCode": "12190",
                     "addressCountry": "ID"
                   },
-                  "founder": { "@id": "https://pradiktif.id/#founder" }
+                  "founder": { "@id": "https://zadit.netlify.app/#founder" }
                 },
                 {
                   "@type": "ProfessionalService",
@@ -156,7 +156,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     "latitude": -6.2241,
                     "longitude": 106.8091
                   },
-                  "url": "https://pradiktif.id",
+                  "url": "https://zadit.netlify.app",
                   "telephone": "+62-823-1636-3177",
                   "priceRange": "Rp$$$$",
                   "openingHoursSpecification": [
@@ -197,19 +197,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       "@type": "ListItem",
                       "position": 1,
                       "name": "Investor Pitch Deck",
-                      "url": "https://pradiktif.id/#pitch-deck"
+                      "url": "https://zadit.netlify.app/#pitch-deck"
                     },
                     {
                       "@type": "ListItem",
                       "position": 2,
                       "name": "Executive Website",
-                      "url": "https://pradiktif.id/#web-design"
+                      "url": "https://zadit.netlify.app/#web-design"
                     },
                     {
                       "@type": "ListItem",
                       "position": 3,
                       "name": "Brand Narrative",
-                      "url": "https://pradiktif.id/#brand-narrative"
+                      "url": "https://zadit.netlify.app/#brand-narrative"
                     }
                   ]
                 },
@@ -220,13 +220,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       "@type": "ListItem",
                       "position": 1,
                       "name": "Home",
-                      "item": "https://pradiktif.id"
+                      "item": "https://zadit.netlify.app"
                     },
                     {
                       "@type": "ListItem",
                       "position": 2,
                       "name": "Layanan",
-                      "item": "https://pradiktif.id/#services"
+                      "item": "https://zadit.netlify.app/#services"
                     }
                   ]
                 },
@@ -234,8 +234,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   "@type": "Dataset",
                   "name": "PRADIKTIF Market Pulse - Strategic Impact Index 2026",
                   "description": "Data real-time mengenai dampak strategi digital terhadap pertumbuhan UMKM dan Startup di Indonesia.",
-                  "creator": { "@id": "https://pradiktif.id/#organization" },
-                  "license": "https://pradiktif.id/legal"
+                  "creator": { "@id": "https://zadit.netlify.app/#organization" },
+                  "license": "https://zadit.netlify.app/legal"
                 }
               ]
             }),

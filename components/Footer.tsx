@@ -84,9 +84,9 @@ export default function Footer() {
             {/* Brand Intelligence */}
             <div className="lg:col-span-5 space-y-12">
               <div>
-                <h3 className="font-newsreader text-4xl text-foreground font-bold mb-8">PRADI<span className="italic text-accent">KTIF.</span></h3>
+                <h3 className="font-newsreader text-4xl text-foreground font-bold mb-8">PRADI<span className="italic text-accent">KTIF Agency.</span></h3>
                 <p className="font-inter text-foreground/40 text-lg leading-relaxed max-w-sm italic text-balance">
-                  Digital Portal Strategis untuk Founder & Korporasi yang Mengejar Presisi dan Estetika Tanpa Kompromi.
+                  Shadow Agency & Infrastruktur Strategis untuk Eksekutif yang Mengejar Presisi Tanpa Kompromi.
                 </p>
               </div>
 
